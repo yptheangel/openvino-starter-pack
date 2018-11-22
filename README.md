@@ -31,19 +31,22 @@ Debug:
 3. There are three batch files that you can run as your demo
     On your windows command prompt, run
 
-    a. Human Pose Estimation Demo
+    a. **Human Pose Estimation Demo**
     
     -Predicts the keypoints of a human body
+    
     `demo1.bat`
 
-    b. Interactive Face Detection Demo
+    b. **Interactive Face Detection Demo**
     
     -Detects faces, predicts age, gender and emotion
+    
     `demo2.bat`
 
-    c. Object Detection Demo SSD Async
+    c. **Object Detection Demo SSD Async**
     
     -Detects people
+    
     `demo3.bat`
 
 
