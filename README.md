@@ -22,7 +22,7 @@ Debug:
 ### How to use this repo
 1. Create a build folder and then compile the applications
 
-`python setup.py`
+    `python install.py`
 
 2. Go to the build folder
     
@@ -32,18 +32,18 @@ Debug:
     On your windows command prompt, run
 
     a. Human Pose Estimation Demo
+    
     -Predicts the keypoints of a human body
-
     `demo1.bat`
 
     b. Interactive Face Detection Demo
-    -Detects faces, predicts age, gender and emotion
     
+    -Detects faces, predicts age, gender and emotion
     `demo2.bat`
 
     c. Object Detection Demo SSD Async
-    -Detects people
     
+    -Detects people
     `demo3.bat`
 
 
