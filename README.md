@@ -17,7 +17,9 @@ Git Bash
 Webcam from my laptop
 
 Debug: 
-(If you are using python 2, just change the syntax print(hello) to print "hello")
+1. (If you are using python 2, just change the syntax print(hello) to print "hello")
+
+2. (If you are using an older version of Microsoft Visual Studio, you just need to modify the make.bat, change the -G flag to your current version)
 
 ### How to use this repo
 1. Create a build folder and then compile the applications
