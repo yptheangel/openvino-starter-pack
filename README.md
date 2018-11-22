@@ -1,8 +1,8 @@
-# Shortcut your way to understanding OpenVINO Toolkit on Windows 10
+# Shortcut your way to leverage OpenVINO Toolkit on Windows 10
 
 This repository will help you get familiar with Intel OpenVINO toolkit. Note that the Toolkit offers a lot of features, here I will simplify the work and help you see and understand better on what OpenVINO inference engine can do. Note that I am not paid by Intel to do this. Cheers :) 
 
-All the codes here are from OpenVINO inference engine sample apps and they have open source licenses, please proceed with caution. My goal here is to demostrate the sample apps as seamlessly as possible. Remember to show and share this repository with your friends! Any positive and negative feedbacks are welcome.
+All the codes here are from OpenVINO inference engine sample apps and they have open source licenses, please proceed with caution. My goal here is to demostrate the sample apps as seamlessly as possible. Remember to show and share this repository with your friends! Any positive or negative feedbacks are welcome.
 
 ##Let's get started with OpenVINO toolkit!
 Please read [Install OpenVINO on Windows](https://software.intel.com/en-us/articles/OpenVINO-Install-Windows) as an installation guide.
@@ -19,17 +19,28 @@ Webcam from my laptop
 Debug: 
 (If you are using python 2, just change the syntax print(hello) to print "hello")
 
-##How to use this repo
-1. `python setup.py`
+###How to use this repo
+1. Create a build folder and then compile the applications
+
+`python setup.py`
+
 2. Go to the build folder
+    
     `cd build`
+
 3. There are three batch file that you can run as your demo
     On your windows command prompt, run
     a. Human Pose Estimation Demo
+
     `demo1.bat`
+
     b. Interactive Face Detection Demo
+    
     `demo2.bat`
+
     c. Object Detection Demo SSD Async
+    
     `demo3.bat`
 
-Let me know if you encounter a problem on your host machine and I would love to know what is the performance on your PC :). 
+
+Let me know if you encounter problems on your side, do share with me what is the performance(FPS,frames per second) of the applications on your PC :). 
