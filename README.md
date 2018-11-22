@@ -4,7 +4,7 @@ This repository will help you get familiar with Intel OpenVINO toolkit. Note tha
 
 All the codes here are from OpenVINO inference engine sample apps and they have open source licenses, please proceed with caution. My goal here is to demostrate the sample apps as seamlessly as possible. Remember to show and share this repository with your friends! Any positive or negative feedbacks are welcome.
 
-##Let's get started with OpenVINO toolkit!
+## Let's get started with OpenVINO toolkit!
 Please read [Install OpenVINO on Windows](https://software.intel.com/en-us/articles/OpenVINO-Install-Windows) as an installation guide.
 
 My environment:
@@ -19,7 +19,7 @@ Webcam from my laptop
 Debug: 
 (If you are using python 2, just change the syntax print(hello) to print "hello")
 
-###How to use this repo
+### How to use this repo
 1. Create a build folder and then compile the applications
 
 `python setup.py`
@@ -28,17 +28,21 @@ Debug:
     
     `cd build`
 
-3. There are three batch file that you can run as your demo
+3. There are three batch files that you can run as your demo
     On your windows command prompt, run
+
     a. Human Pose Estimation Demo
+    -Predicts the keypoints of a human body
 
     `demo1.bat`
 
     b. Interactive Face Detection Demo
+    -Detects faces, predicts age, gender and emotion
     
     `demo2.bat`
 
     c. Object Detection Demo SSD Async
+    -Detects people
     
     `demo3.bat`
 
