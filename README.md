@@ -9,12 +9,19 @@ Please read [Install OpenVINO on Windows](https://software.intel.com/en-us/artic
 
 My environment:
 Microsoft Windows 10 Enterprise 64-bit
+
 OpenVINO Toolkit R4
+
 Microsoft Visual Studio 14 2015
+
 CMake 3.10.0
+
 Python 3
+
 Git Bash
+
 Webcam from my laptop
+
 
 Debug: 
 1. (If you are using python 2, just change the syntax print(hello) to print "hello")

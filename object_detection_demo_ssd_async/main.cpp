@@ -305,10 +305,10 @@ int main(int argc, char *argv[]) {
                     float xmax = detections[i * objectSize + 5] * width;
                     float ymax = detections[i * objectSize + 6] * height;
 
-                    if (image_id < 0) {
-                        std::cout << "Only " << i << " proposals found" << std::endl;
-                        break;
-                    }
+                    // if (image_id < 0) {
+                    //     // std::cout << "Only " << i << " proposals found" << std::endl;
+                    //     break;
+                    // }
                     if (FLAGS_r) {
                         std::cout << "[" << i << "," << label << "] element, prob = " << confidence <<
                                   "    (" << xmin << "," << ymin << ")-(" << xmax << "," << ymax << ")"
