@@ -7,20 +7,6 @@ All the codes here are from OpenVINO inference engine sample apps and they have 
 ## Let's get started with OpenVINO toolkit!
 Please read [Install OpenVINO on Windows](https://software.intel.com/en-us/articles/OpenVINO-Install-Windows) as an installation guide.
 
-My setup and environment:
-1. Microsoft Windows 10 Enterprise 64-bit
-2. OpenVINO Toolkit R4
-3. Microsoft Visual Studio 14 2015
-4. CMake 3.10.0
-5. Python 3
-6. Git Bash
-7. Laptop webcam
-
-
-Debug: 
-1. If you are using python 2, just change the syntax print(hello) to print "hello"
-2. If you are using an older version of Microsoft Visual Studio, you just need to modify the make.bat, change the -G flag to your current version
-
 ### How to use this repo
 1. Create a build folder and then compile the applications
 </br>`python install.py`
@@ -32,8 +18,8 @@ Debug:
 </br> On your windows command prompt, run
 
 ### a. **Human Pose Estimation Demo**
-Predicts the keypoints of a human body  
-</br>`demo1.bat`
+Predicts the keypoints of a human body
+<br>`demo1.bat`
 
 ### b. **Interactive Face Detection Demo**  
 Detects faces, predicts age, gender and emotion
@@ -43,5 +29,18 @@ Detects faces, predicts age, gender and emotion
 Detects people
 </br> `demo3.bat`
 
+### Debug
+1. If you are using python 2, just change the syntax print(hello) to print "hello"
+2. If you are using an older version of Microsoft Visual Studio, you just need to modify the make.bat, change the -G flag to your current version
+
+### Extras 
+My setup and environment:
+1. Microsoft Windows 10 Enterprise 64-bit
+2. OpenVINO Toolkit R4
+3. Microsoft Visual Studio 14 2015
+4. CMake 3.10.0
+5. Python 3
+6. Git Bash
+7. Laptop webcam
 
 Let me know if you encounter problems on your side, do share with me what is the performance(FPS,frames per second) of the applications on your PC :). 
